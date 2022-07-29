@@ -1,0 +1,38 @@
+.new-revenue {
+  background-color: #C21010;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-revenue button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #670909;
+  background-color: #670909;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-revenue button:hover,
+.new-revenue button:active {
+  background-color: #2E0404;
+  border-color: #2E0404;
+}
+
+.new-revenue button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-revenue button.alternative:hover,
+.new-revenue button.alternative:active {
+  background-color: #ddb3f8;
+}
